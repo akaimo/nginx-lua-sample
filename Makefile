@@ -6,3 +6,6 @@ stop:
 
 down:
 	docker-compose down
+
+log:
+	docker-compose logs
