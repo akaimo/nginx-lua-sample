@@ -6,3 +6,4 @@ services:
       - "80:80"
     volumes:
       - ./conf.d:/etc/nginx/conf.d
+      - ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
